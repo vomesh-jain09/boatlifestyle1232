@@ -1,0 +1,36 @@
+
+
+@media screen and (max-width:750px) {
+    *{
+        margin: 0%;
+        padding: 0%;
+
+    }
+   .card-group{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    flex-wrap: wrap;
+    height: auto;
+    width:auto;
+  
+   }
+   .gurranty{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 50%;
+   }
+    .lifestyle{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 100%;
+        width: 100%;
+       
+        align-items: center;
+         margin-right: 50%;
+    }
+}

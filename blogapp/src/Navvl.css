@@ -1,0 +1,40 @@
+nav{
+    /* border: 12px solid green; */
+    position: sticky;
+    background-color: black;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+nav ul li:hover{
+   color:"blue"
+}
+.navbar-nav:hover{
+    color: blue;
+    
+}
+.nav-item:hover{
+    font-weight: bolder;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+}
+
+.btn{
+  
+    border:2px solid black;
+    width: 100px;
+    gap:10px;
+    margin-Right:20px;
+     box-shadow: "2px 2px 5px red"
+   
+   
+  }
+  .btn:hover{                                                          
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 2px solid rgb(9, 9, 12);
+    text-decoration: underline;
+   text-decoration-color: blue;
+   
+
+  }

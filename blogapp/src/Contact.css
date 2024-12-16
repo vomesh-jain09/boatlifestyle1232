@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -1rem;
+}
+
+
+.col {
+    padding: 1rem; 
+    max-width: 100%;
+    border:2px solid black;
+    box-shadow: 2px 2px 5px red
+}
+.col:hover{
+    color:rgb(22, 22, 21)
+}
+.card-title{
+    font-size: 1.5rem;
+    color: aquamarine;
+}
+.card-title:hover{
+    color: rgb(7, 5, 8);
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+.card-description:hover{
+    font-size: 1rem;
+    color: blueviolet;
+    text-rendering: inherit;
+}
